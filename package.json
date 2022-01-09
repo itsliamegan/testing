@@ -1,0 +1,16 @@
+{
+	"name": "testing",
+	"description": "A testing framework",
+	"author": "Liam Egan <liam@liamegan.com>",
+	"version": "0.1.0",
+	"type": "module",
+	"exports": {
+		".": "./src/main.js",
+		"./assertions": "./src/assertions.js"
+	},
+	"bin": "./bin/test.js",
+	"scripts": {
+	},
+	"dependencies": {},
+	"devDependencies": {}
+}
